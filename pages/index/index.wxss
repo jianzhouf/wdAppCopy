@@ -1,0 +1,146 @@
+/**index.wxss**/
+
+.intro {
+  padding: 0 25rpx;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+
+.intro-row {
+  padding: 25rpx 0;
+}
+
+.intro-row+.intro-row {
+  border-top: 1rpx solid #e0e0e0;
+}
+
+.intro-column {
+  display: inline-block;
+  width: 325rpx;
+}
+
+.intro-column:nth-child(1) {
+  padding-right: 25rpx;
+}
+
+.intro-column:nth-child(2) {
+  padding-left: 25rpx;
+  border-left: 1rpx solid #e0e0e0;
+}
+
+.intro-column image {
+  float: right;
+}
+
+.gray-text {
+  color: #999;
+  font-size: 25rpx;
+}
+
+.intro-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.slide-image {
+  width: 750rpx;
+}
+
+.topInvest {
+  background: #fff;
+  padding: 50rpx;
+  margin-bottom: 10rpx;
+}
+
+.topInvest .rate {
+  text-align: center;
+  color: red;
+  font-size: 70rpx;
+}
+
+.topInvest-button {
+  margin-top: 20rpx;
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  background: linear-gradient(to right, #2096fe, #73baf8);
+  color: #fff;
+}
+.topInvest-button::after {
+  border: none;
+}
+
+.community {
+  background: #fff;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+}
+
+.community-header {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #e0e0e0;
+}
+
+.media {
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #e0e0e0;
+}
+
+.media-body {
+  display: inline-block;
+  width: 550rpx;
+  padding-right: 50rpx;
+}
+
+.media-body .theme {
+  color: #2096fe;
+  font-size: 25rpx;
+}
+
+.media-body .num {
+  color: #999;
+  margin-left: 15rpx;
+  font-size: 25rpx;
+}
+
+.media-body .time {
+  color: #999;
+  margin-left: 15rpx;
+  font-size: 25rpx;
+}
+
+.media-image {
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.community-bottom {
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+}
+
+.dataPart {
+  display: inline-block;
+  width: 280rpx;
+  height: 60rpx;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  background: #2096fe;
+  color: #fff;
+}
+
+.infoPart {
+  display: inline-block;
+  width: 280rpx;
+  height: 60rpx;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin-left: 20rpx;
+  background: #d38f69;
+  color: #fff;
+}

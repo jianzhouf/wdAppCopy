@@ -1,0 +1,72 @@
+.baseInfo {
+  background: linear-gradient(to right, #2096fe, #73baf8);
+  color: white;
+  padding-top: 60rpx;
+}
+
+.blueIcon {
+  display: inline-block;
+  height: 24rpx;
+  border-left: 6rpx solid #2096fe;
+  margin-right: 15rpx;
+}
+
+.s-intro-item text:first-child {
+  color: #999;
+  margin-right: 25rpx;
+  font-size: 30rpx;
+}
+
+.s-intro-item text:nth-child(2) {
+  font-size: 30rpx;
+}
+
+.bottom-btn {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #73baf8;
+  color: #fff;
+  border-radius: 0;
+}
+
+.bottom-btn:after {
+  border: none;
+}
+
+.ruler {
+  position: relative;
+  height: 41rpx;
+}
+
+
+
+.ruler .baseline {
+  position: absolute;
+  bottom: 0;
+  width: 2750rpx;
+}
+
+.ruler .wan {
+  float: left;
+  width: 5px;
+  height: 18rpx;
+  border-left: 1px solid #000;
+  margin-top: 22rpx;
+  position: relative;
+}
+
+.ruler .wan text {
+  position: absolute;
+  top: -23rpx;
+  left: -10rpx;
+  font-size: 20rpx;
+}
+
+.ruler .qian {
+  float: left;
+  width: 5px;
+  height: 12rpx;
+  border-left: 1px solid #000;
+  margin-top: 28rpx;
+}

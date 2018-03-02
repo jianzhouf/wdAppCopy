@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微贷网（开发学习）",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#e0e0e0",
+    "iconColor": "#e0e0e0",
+    "selectedColor": "#008de1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png",
+        "text": "分类"
+      }
+    ]
+  }
+}

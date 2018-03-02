@@ -1,0 +1,86 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color='{{indicatorActiveColor}}' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item.url}}">
+      <swiper-item>
+        <image mode="aspectFill" src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='intro'>
+    <view class='intro-row'>
+      <view class='intro-column'>
+        <image class='intro-icon' src='../../images/22.png'></image>
+        <view>1698.66 亿元</view>
+        <view class='gray-text'>累计成交额</view>
+      </view>
+      <view class='intro-column'>
+        <image class='intro-icon' src='../../images/22.png'></image>
+        <view>话费翻倍赚</view>
+        <view class='gray-text'>新人福利社</view>
+      </view>
+    </view>
+    <view class='intro-row'>
+      <view class='intro-column'>
+        <image class='intro-icon' src='../../images/22.png'></image>
+        <view>轻奢你的生活</view>
+        <view class='gray-text'>会员俱乐部</view>
+      </view>
+      <view class='intro-column'>
+        <image class='intro-icon' src='../../images/22.png'></image>
+        <view>交流更多精彩</view>
+        <view class='gray-text'>微贷社区</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='topInvest'>
+    <view style='text-align: center;font-weight:700;'>优选智投 服务期限一个月</view>
+    <view class='rate'>10.0
+      <text style='font-size: 35rpx;margin-left:10rpx;'>%</text>
+    </view>
+    <view class='gray-text' style='text-align: center;'>预期利率</view>
+    <button class='topInvest-button' bindtap='linkToDetail'>授权服务</button>
+  </view>
+
+  <view class='community'>
+    <view class='community-header'>
+      <navigator class='z-right' style='color:#999;'>更多》</navigator>微贷社区 </view>
+
+    <view>
+      <view class='media'>
+        <view class='media-body'>
+          <view>高房价下你愿意一辈子租房子吗？租房和买房该如何选择？</view>
+          <view>
+            <text class='theme'>理财交流</text>
+            <text class='num'>41人评论</text>
+            <text class='time'>2018-02-09</text>
+          </view>
+        </view>
+        <image class='media-image' src='../../images/22.png'></image>
+      </view>
+      <view class='media'>
+        <view class='media-body'>
+          <view>高房价下你愿意一辈子租房子吗？租房和买房该如何选择？</view>
+          <view>
+            <text class='theme'>理财交流</text>
+            <text class='num'>41人评论</text>
+            <text class='time'>2018-02-09</text>
+          </view>
+        </view>
+        <image class='media-image' src='../../images/22.png'></image>
+      </view>
+      <view class='community-bottom'>
+        <navigator class='dataPart'>平台数据</navigator>
+        <navigator class='infoPart'>信息披露</navigator>
+      </view>
+    </view>
+  </view>
+
+  <view style='padding: 60rpx 0;text-align:center; font-size: 25rpx;color:#999;'>
+    <view>您的资产由厦门银行资金存管系统全程监督</view>
+    <view>市场有风险</view>
+  </view>
+
+  
+</view>
